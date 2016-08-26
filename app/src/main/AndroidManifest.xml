@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="khzahre.materialdesign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Main">
+
+            <!-- android:label="@string/title_activity_main" -->
+            <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".subActivity"
+            android:label="sub activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khzahre.materialdesign.Main" />
+        </activity>
+        <!-- we can define title for any activity here -->
+        <activity
+            android:name=".FixedTabs"
+            android:label="@string/title_activity_fixed_tabs"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khzahre.materialdesign.Main" />
+        </activity>
+        <activity
+            android:name=".ScrollableTabs"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khzahre.materialdesign.Main" />
+        </activity>
+        <activity
+            android:name=".IconTextTabs"
+            android:label="Icon and Text"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khzahre.materialdesign.Main" />
+        </activity>
+        <activity
+            android:name=".OnlyIcons"
+            android:label="Only Icons"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khzahre.materialdesign.Main" />
+        </activity>
+        <activity
+            android:name=".Custom_tab"
+            android:label="Custom tab"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="khzahre.materialdesign.Main" />
+        </activity>
+        <activity android:name=".CardView"></activity>
+    </application>
+
+</manifest>

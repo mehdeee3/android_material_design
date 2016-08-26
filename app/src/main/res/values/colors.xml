@@ -1,0 +1,19 @@
+<!--<resources>-->
+    <!--<color name="colorPrimary">#125688</color>-->
+    <!--<color name="colorPrimaryDark">#125688</color>-->
+    <!--<color name="textColorPrimary">#FFFFFF</color>-->
+    <!--//<color name="windowBackground">#FFFFFF</color>-->
+    <!--<color name="navigationBarColor">#000000</color>-->
+    <!--<color name="colorAccent">#c8e8ff</color>-->
+<!--</resources>-->
+
+
+<resources>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#F50057</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="selectedIcon">#32bf0f</color>
+    <color name="unselectedIcon">#b8bf74</color>
+</resources>
